@@ -406,7 +406,7 @@ def letter_n():
 
 @app.route('/O', methods=['GET'])
 def letter_o():
-    url = F"https://parenting.firstcry.com/baby-names/starting-with/0/"
+    url = F"https://parenting.firstcry.com/baby-names/starting-with/O/"
     baby_list = []
 
     res = requests.get(url)
@@ -579,7 +579,7 @@ def letter_u():
 
     return jsonify(baby_list)
 
-@app.route('/v', methods=['GET'])
+@app.route('/V', methods=['GET'])
 def letter_v():
     url = F"https://parenting.firstcry.com/baby-names/starting-with/V/"
     baby_list = []
