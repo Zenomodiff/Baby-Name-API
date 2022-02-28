@@ -1,3 +1,3 @@
 # Baby-Name-API
 
-### [API LINK](https://baby-name-api.herokuapp.com/)
+### [API LINK](https://captcha-image-api.herokuapp.com/)
